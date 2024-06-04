@@ -14,4 +14,11 @@ int main ()
 
     cout << ">= Menulis File, \'q\' untuk keluar" << endl;
 
+    // unlimited loap untuk menulis
+    while (true)
+    {
+        cout << "- ";
+        // mendapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
+    }
 }
